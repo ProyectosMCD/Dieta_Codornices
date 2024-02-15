@@ -1,8 +1,11 @@
+<p align="center">
+  <img src="https://github.com/ProyectosMCD/Dieta_Codornices/assets/5826577/fd3ad789-7ef0-422c-879b-5549b413aff2" alt="drawing" width="500"/>
+</p>
 
 
 # PROYECTO: ANÁLISIS ESTADÍSTICO DE FACTORES QUE DETERMINAN ABUNDANCIA, DIETA Y DISTRIBUCIÓN DE LA CODORNIZ MOCTEZUMA
 
-<div style="text-align: right"> Hermosillo, Sonora, 17 de Febrero de 2024 </div>
+<p align="right"> Hermosillo, Sonora, 17 de Febrero de 2024 </p>
 
 
 ### Índice
