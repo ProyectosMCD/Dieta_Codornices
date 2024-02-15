@@ -16,8 +16,8 @@
 5. Requerimientos
 6. Entregables 
 7. Presupuesto 
-8. Términos de la participación de Data Analytics
-9. Anexo: Información general sobre Data Analytics
+8. Términos de la participación de DataAnalytics
+9. Anexo: Información general sobre DataAnalytics
 
 
 ### 1. Introducción
@@ -48,21 +48,49 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
 
 ### 5. Requerimientos
 
+- Asesor experto de la CONABIO que proporcione información necesaria y mantenga el flujo de comunicación con el equipo de DataAnalytics.  
 
-
+- Fuentes de datos: bases de datos, archivos excel, o cualquier documento que contenga los datos a analizar.
+  
+- Documentación adicional que enriquezca el contexto del problema y propocione detalles de utilidad para la realización de este proyecto.
+  
 ### 6. Entregables 
 
+- Plan de Proyecto: documento formal que detalla los objetivos del proyecto, los datos disponibles, las preguntas de investigación y los requisitos específicos del cliente. 
+  
+- Base de Datos $tidy$: datos limpios y preparados con los que se realiza el análisis.
+  
+- Análisis Exploratorio de Datos (EDA): documento que incluye gráficos y estadísticas descriptivas para explorar la distribución y la relación entre variables de los datos.
+  
+- Código en Python: código generado para la realización del análisis que incluye gráficos y visualizaciones, así como también de los modelos desarrollados (en caso de aplicar).
+  
+- Informe de Resultados: documento formal y detallado que presenta los resultados del análisis, incluyendo interpretaciones, conclusiones y recomendaciones basadas en los hallazgos.
 
+- Presentación Ejecutiva de Resultados
+
+- Transferencia de Conocimientos: sesiones de capacitación para el cliente sobre el uso de los resultados del análisis estadístico y la interpretación de los modelos desarrollados (en caso de aplicar).
 
 ### 7. Presupuesto 
 
 
 
-### 8. Términos de la participación de Data Analytics
+### 8. Términos de la participación de DataAnalytics
+
+#### Proceso de Pago de los Servicios
+El procedimiento de pago para los servicios prestados por DataAnalytics se realiza de la siguiente forma: 
+- Pago inicial del 50%
+- Liquidación del 50% restante al concluir el proyecto. 
 
 
 
-### 9. Anexo: Información general sobre Data Analytics
+### 9. Anexo: Información general sobre DataAnalytics
+
+DataAnalytics es una empresa que proporciona soluciones estadísticas precisas y estratégicas para satisfacer las necesidades de nuestros clientes en la toma de decisiones, aportando valor mediante el análisis y la interpretación de datos.
+
+Dentro de los servicios que ofrecemos se encuentran: análisis estadístico de datos, desarrollo de modelos predictivos y descriptivos, diseño experimental, desarrollo de software tales como visualizaciones interactivas y gráficos informativos, capacitación y asesoramiento personalizado en estadística y análisis de datos, entre otros.
+
+En DataAnalytics contamos con un equipo de trabajo multidisciplinario que nos permite abordar problemas de distintas áreas y diferente complejidad, para ofrecer soluciones a medida, eficientes e innovadoras, que cumplan con los objetivos y expectativas de nuestros clientes.
+
 
 
 
