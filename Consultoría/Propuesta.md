@@ -84,6 +84,38 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
       </td>
     </tr>
     <!-- Aqui va la fase 2 o las otras fases, agregando más filas según sea necesario -->
+    <tr>
+  <td>Fase 2</td>
+  <td style="vertical-align: top;">
+    <ol>
+      <li>Aplicar métodos de remuestreo y bootstrapping, para estimar incertidumbres en las estimaciones, en especial al trabajar con muestras pequeñas como es el caso.</li>
+      <li>Realizar análisis multivariado y de series temporales, para identificar patrones, tendencias en la dieta de la codorniz y su relación con variables climáticas, ambientales y de sujeto.</li>
+      <li>Desarrollar Modelo de preferencia alimentaria: que identifique las preferencias alimentarias de la codorniz Moctezuma en función de variables ambientales y de sujeto.</li>
+    </ol>
+  </td>
+  <td style="vertical-align: top;">
+    <ol>
+      <li>Reporte formal, que documente todos los resultados obtenidos en la fase 2 del proyecto.</li>
+      <li>Preparar una presentación para compartir los resultados obtenidos con el cliente y otros interesados.</li>
+    </ol>
+  </td>
+  <td style="vertical-align: top;">
+    <ol>
+      <li>Identificar las variables clave, patrones y tendencias en los datos.</li>
+      <li>Interpretar los resultados y extraer conclusiones significativas sobre la dieta de la codorniz Moctezuma.</li>
+      <li>Desarrollar, ajustar y validar el modelo (Validación Cruzada, etc).</li>
+    </ol>
+  </td>
+  <td style="vertical-align: top;">
+    <ol>
+      <li>Reuniones con el equipo asesor de la CONABIO para discutir el progreso del proyecto, revisar los resultados obtenidos y recibir retroalimentación sobre las decisiones.</li>
+      <li>Utilizar herramientas y librerías para estadística en lenguajes Python para implementar el modelo de preferencia alimentaria.</li>
+      <li>Diseñar y llevar a cabo sesiones de capacitación para el personal de CONABIO sobre el uso y la interpretación del modelo desarrollado.</li>
+      <li>Elaboración de los distintos entregables.</li>
+    </ol>
+  </td>
+</tr>
+
   </tbody>
 </table>
 
