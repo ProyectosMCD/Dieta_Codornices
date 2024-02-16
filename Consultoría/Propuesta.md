@@ -36,7 +36,58 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
 
 ### 2. Objetivos, metas, estrategias y acciones
 
-
+<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th>Fase</th>
+      <th>Objetivo</th>
+      <th>Meta</th>
+      <th>Estrategia</th>
+      <th>Acción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fase 1</td>
+      <td style="vertical-align: top;">
+        <ol>
+          <li>Revisión del documento de tesis de la maestría (dieta invernal de la codorniz Moctezuma) que no has proporcionado el cliente.</li>
+          <li>Revisión exploratoria de la base de datos, proporcionada en un archivo Excel, respecto a las cosechas de codornices que se han realizado.</li>
+          <li>Conceptualización y análisis estadístico inicial de manera general y rápida.</li>
+          <li>Diseño y construcción de análisis exploratorio de datos, haciendo un análisis mas profundo de la información.</li>
+          <li>Reunión para revisión de resultados y formalización de los siguientes pasos a partir de lo encontrado y planeado en las siguientes fases.</li>
+        </ol>
+      </td>
+      <td style="vertical-align: top;">
+        <ol>
+          <li>Reporte inicial de los resultados obtenidos del análisis estadístico.</li>
+          <li>Presentación inicial de los primeros hallazgos estadísticos.</li>
+          <li>Reporte formal de los resultados obtenidos a partir del análisis exploratorio de datos.</li>
+          <li>Reunión y presentación de los datos obtenidos de una revisión a detalle y profunda.</li>
+          <li>Plan de acción y el paso concreto a seguir en las siguientes etapas del proyecto.</li>
+        </ol>
+      </td>
+      <td style="vertical-align: top;">
+        <ol>
+          <li>Entender la razón principal del proyecto, así como todas las partes involucradas que ayuden a determinar las técnicas estadísticas pertinentes que se utilizaran.</li>
+          <li>Tratar de trabajar en lo máximo posible con los datos que se tengan actualmente y aprovecharlos de manera responsable y optima para llegar a un resultado que apoye a la investigación.</li>
+          <li>Técnicas de limpieza y transformación de los datos sin alterar su esencia, para con esto lograr una mejor interpretación y preparación para la estadística a utilizar.</li>
+        </ol>
+      </td>
+      <td style="vertical-align: top;">
+        <ol>
+          <li>Reunión con el equipo de trabajo para plantear las estrategias a seguir.</li>
+          <li>Reuniones con el cliente que requiere la solución.</li>
+          <li>Se apoyará de herramientas y librerías para estadística y lenguajes como Python para implementar la solución y visualización de los datos.</li>
+          <li>Determinación de las formas y línea de entrega y recepción de los datos.</li>
+          <li>Se dejará a la disposición las diferentes tablas tidy que pudiesen ser creadas.</li>
+          <li>Elaborar los distintos entregables.</li>
+        </ol>
+      </td>
+    </tr>
+    <!-- Aqui va la fase 2 o las otras fases, agregando más filas según sea necesario -->
+  </tbody>
+</table>
 
 ### 3. Planificación de la secuencia de trabajo
 
