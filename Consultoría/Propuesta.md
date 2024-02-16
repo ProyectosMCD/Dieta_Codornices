@@ -28,9 +28,7 @@ La CONABIO tiene la misión de promover, coordinar, apoyar y realizar actividade
 
 En las últimas décadas, un tema de interés para la CONABIO han sido las codornices de Norte América, cuya conservación representa un reto actualmente debido a la disminución de sus poblaciones. Es posible que los cambios climáticos y la pérdida del hábitat afecten negativamente en la disponibilidad y calidad de los alimentos, especialmente en zonas áridas donde el alimento puede ser escaso. Bajo este contexto, se pretende investigar qué factores determinan la abundancia, dieta y distribución de la codorniz moctezuma (Cyrtonyx montezumae), un ave que se encuentra en los pastizales desérticos y los bosques de encinos, cuyos resultados podrían ser clave para entender la persistencia de la codorniz moctezuma en el suroeste de los Estados Unidos y norte de México.
 
-Para llevar a cabo este proyecto se propone hacer la conceptualización, diseño, construcción y puesta en marcha de una Caja de Herramientas de Estadística, conformada por un conjunto de técnicas estadísticas (fundamentalmente descriptivas, gráficas, inferenciales, multivariadas, diseños muestrales), que tiene como finalidad apoyar el desarrollo del análisis de resultados provenientes de una propuesta de calificación de las cuentas públicas estatal y municipales. 
-
-El alcance de este proyecto, propone en una primera fase desarrollar un análisis estadístico descriptivo, con base en los datos que proporcione la CONABIO sobre la codorniz moctezuma. De encontrar resultados favorables y de interés para la CONABIO, se plantea en una segunda fase desarrollar un modelo que permita ______ la creación de indicadores de abundancia y distribución de la codorniz moctezuma, dando a su vez lugar para que la CONABIO pueda implementar políticas públicas basadas en conocimiento confiable para conservar la riqueza natural de México.
+El alcance de este proyecto, propone en una primera fase desarrollar un análisis estadístico descriptivo, con base en los datos que proporcione la CONABIO sobre la codorniz moctezuma. De encontrar resultados favorables y de interés para la CONABIO, se plantea en una segunda fase desarrollar un modelo que permita la creación de indicadores relacionados a la abundancia, distribución y dieta de la codorniz moctezuma, dando a su vez lugar para que la CONABIO pueda implementar políticas públicas basadas en conocimiento confiable para conservar la riqueza natural de México.
 
 
 
@@ -51,10 +49,10 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
       <td>Fase 1</td>
       <td style="vertical-align: top;">
         <ol>
-          <li>Revisión del documento de tesis de la maestría (dieta invernal de la codorniz Moctezuma) que no has proporcionado el cliente.</li>
+          <li>Revisión del documento "Dieta invernal de la codorniz Moctezuma (Cyrtonyx montezumae) en Arizona y Nuevo México" que contiene el marco teórico y el trabajo de investigación proporcionado por la CONABIO.</li>
           <li>Revisión exploratoria de la base de datos, proporcionada en un archivo Excel, respecto a las cosechas de codornices que se han realizado.</li>
           <li>Conceptualización y análisis estadístico inicial de manera general y rápida.</li>
-          <li>Diseño y construcción de análisis exploratorio de datos, haciendo un análisis mas profundo de la información.</li>
+          <li>Diseño y construcción de análisis exploratorio de datos, haciendo un análisis más profundo de la información.</li>
           <li>Reunión para revisión de resultados y formalización de los siguientes pasos a partir de lo encontrado y planeado en las siguientes fases.</li>
         </ol>
       </td>
@@ -69,19 +67,19 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
       </td>
       <td style="vertical-align: top;">
         <ol>
-          <li>Entender la razón principal del proyecto, así como todas las partes involucradas que ayuden a determinar las técnicas estadísticas pertinentes que se utilizaran.</li>
-          <li>Tratar de trabajar en lo máximo posible con los datos que se tengan actualmente y aprovecharlos de manera responsable y optima para llegar a un resultado que apoye a la investigación.</li>
-          <li>Técnicas de limpieza y transformación de los datos sin alterar su esencia, para con esto lograr una mejor interpretación y preparación para la estadística a utilizar.</li>
+          <li>Entender la razón principal del proyecto, así como todas las partes involucradas que ayuden a determinar las técnicas estadísticas pertinentes que se utilizarán.</li>
+          <li>Trabajar en lo máximo posible con los datos que se tengan actualmente y aprovecharlos de manera responsable y óptima para llegar a un resultado que apoye a la investigación.</li>
+          <li>Aplicar técnicas de limpieza y transformación de los datos sin alterar su esencia, para con esto lograr una mejor interpretación y preparación para la estadística a utilizar.</li>
         </ol>
       </td>
       <td style="vertical-align: top;">
         <ol>
-          <li>Reunión con el equipo de trabajo para plantear las estrategias a seguir.</li>
-          <li>Reuniones con el cliente que requiere la solución.</li>
-          <li>Se apoyará de herramientas y librerías para estadística y lenguajes como Python para implementar la solución y visualización de los datos.</li>
+          <li>Reunión con el equipo interno de trabajo de DataAnalytics para plantear las estrategias a seguir.</li>
+          <li>Reuniones con el equipo asesor de la CONABIO, quienes requieren la solución.</li>
+          <li>Uso de herramientas y librerías para estadística y lenguajes como Python para implementar la solución y visualización de los datos.</li>
           <li>Determinación de las formas y línea de entrega y recepción de los datos.</li>
-          <li>Se dejará a la disposición las diferentes tablas tidy que pudiesen ser creadas.</li>
-          <li>Elaborar los distintos entregables.</li>
+          <li>Se dejará a disposición las diferentes tablas $tidy$ que pudiesen ser creadas.</li>
+          <li>Elaboracón de los distintos entregables.</li>
         </ol>
       </td>
     </tr>
@@ -119,7 +117,7 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
 
 - Presentación Ejecutiva de Resultados
 
-- Transferencia de Conocimientos: sesiones de capacitación para el cliente sobre el uso de los resultados del análisis estadístico y la interpretación de los modelos desarrollados (en caso de aplicar).
+- Transferencia de Conocimientos: sesiones de capacitación para el personal de la CONABIO sobre el uso de los resultados del análisis estadístico y la interpretación de los modelos desarrollados (en caso de aplicar).
 
 ### 7. Presupuesto 
 
