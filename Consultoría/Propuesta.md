@@ -171,7 +171,6 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
   <td> $750 </td>
   <td>$75,000</td>  
   </tr>
-  <tbody>
   <tr>
   <td> Fase 1. Objetivos 4 y 5. <br> EDA a profundidad y revisión de resultados. </td>
   <td> Reunión y presentación de los datos obtenidos. Formalización de siguientes pasos. </td>
@@ -179,7 +178,6 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
   <td> $750 </td>
   <td> $37,500 </td>
   </tr>
-  <tbody>
   <tr>
   <td></td>
   <td></td>
