@@ -153,6 +153,8 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
 
 ### 7. Presupuesto 
 
+## Fase 1
+
 <table class="table table-bordered">
   <thead class="thead-dark">
     <tr>
@@ -189,6 +191,52 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
      </tbody>
 </table>
 
+## Fase 2
+
+<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th>Actividad</th>
+      <th>Entregable</th>
+      <th>Unidades</th>
+      <th>Costo Unitario</th>
+      <th>Costo Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fase 2. Objetivos 1-2<br> Métodos de remuestreo y bootstraping. <br>Análisis multivariado y de series temporales. </td>
+       <td>Reporte formal de los resultados obtenidos.</td>
+   <td> 50 hrs </td>
+  <td> $750 </td>
+  <td>$37,500</td>  
+  </tr>
+  <tr>
+  <td> Fase 2. Objetivo 3. <br> Desarrollo de modelo de preferencia alimentaria. </td>
+  <td> Reunión y presentación de los datos obtenidos. </td>
+  <td> 50 hrs </td>
+  <td> $750 </td>
+  <td> $37,500 </td>
+  </tr>
+  <tr>
+  <td>Fase 2 <br>
+  Diseño y gestión de capacitación de personal CONABIO</td>
+  <td>10 Sesiones de capacitación a personal de CONABIO</td>
+  <td>50 hrs </td>
+  <td>$1000</td>
+  <td>$50,000</td> 
+        <td style="vertical-align: top;">
+   </tr>
+   <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>Total</td>
+  <td>$125,000</td> 
+        <td style="vertical-align: top;">
+   </tr>
+     </tbody>
+</table>
 
 ### 8. Términos de la participación de DataAnalytics
 
