@@ -153,6 +153,43 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
 
 ### 7. Presupuesto 
 
+<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th>Actividad</th>
+      <th>Entregable</th>
+      <th>Unidades</th>
+      <th>Costo Unitario</th>
+      <th>Costo Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fase 1. Objetivos 1-3<br> Revisión de documentación, EDA y Análisis estadístico inicial.</td>
+       <td>Reporte formal de los resultados obtenidos a partir del análisis     exploratorio de datos.</td>
+   <td> 100 hrs </td>
+  <td> $750 </td>
+  <td>$75,000</td>  
+  </tr>
+  <tbody>
+  <tr>
+  <td> Fase 1. Objetivos 4 y 5. <br> EDA a profundidad y revisión de resultados. </td>
+  <td> Reunión y presentación de los datos obtenidos. Formalización de siguientes pasos. </td>
+  <td> 50 hrs </td>
+  <td> $750 </td>
+  <td> $37,500 </td>
+  </tr>
+  <tbody>
+  <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>Total</td>
+  <td>$112,500</td> 
+        <td style="vertical-align: top;">
+   </tr>
+     </tbody>
+</table>
 
 
 ### 8. Términos de la participación de DataAnalytics
