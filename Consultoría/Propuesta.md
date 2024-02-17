@@ -137,7 +137,10 @@ De encontrar resultados favorables y de interés para la CONABIO, el equipo de D
   <tbody>
       <td style="vertical-align: top;">Misael Gonzales Soria</td>
       <td style="vertical-align: top;">Analista de Datos.</td>
-      <td style="vertical-align: top;">Licenciado en Matemáticas, actualmente es analista de procesos mineros en ECN Automación. Experto en modelos estadísticos y amplio conocimiento en modelado probabilístico.</td>
+      <td style="vertical-align: top;">
+        Licenciado en Matemáticas, actualmente es analista de procesos mineros en ECN Automación. Experto en modelos estadísticos y amplio conocimiento en modelado probabilístico.
+        Responsable en interpretar, organizar y analizar conjuntos de datos para obtener información relevante y respaldar la toma de decisiones empresariales.
+      </td>
   </tbody>
   <tbody>
     <tr>
@@ -149,7 +152,10 @@ De encontrar resultados favorables y de interés para la CONABIO, el equipo de D
     <tr>
       <td style="vertical-align: top;">Luis Ernesto Ortiz Villalon</td>
       <td style="vertical-align: top;">Responsable Técnico.</td>
-      <td style="vertical-align: top;">Licenciado en Finanzas con especialidad en desarrollo sustentable. Con más de 10 años de experiencia en proyectos de desarrollo de software.</td>
+      <td style="vertical-align: top;">
+        Licenciado en Finanzas con especialidad en desarrollo sustentable. Con más de 10 años de experiencia en proyectos de desarrollo de software.
+        Responsable en diseñar, construir, mantener y optimizar sistemas y arquitecturas de datos.
+      </td>
   </tbody>
   <tbody>
     <tr>
