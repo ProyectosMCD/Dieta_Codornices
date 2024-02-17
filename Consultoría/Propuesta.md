@@ -3,7 +3,7 @@
 </p>
 
 
-# PROYECTO: ANÁLISIS ESTADÍSTICO DE FACTORES QUE DETERMINAN ABUNDANCIA, DIETA Y DISTRIBUCIÓN DE LA CODORNIZ MOCTEZUMA
+# PROPUESTA DE PROYECTO: ANÁLISIS ESTADÍSTICO DE FACTORES QUE DETERMINAN ABUNDANCIA, DIETA Y DISTRIBUCIÓN DE LA CODORNIZ MOCTEZUMA
 
 <p align="right"> Hermosillo, Sonora, 17 de Febrero de 2024 </p>
 
@@ -28,8 +28,9 @@ La CONABIO tiene la misión de promover, coordinar, apoyar y realizar actividade
 
 En las últimas décadas, un tema de interés para la CONABIO han sido las codornices de Norte América, cuya conservación representa un reto actualmente debido a la disminución de sus poblaciones. Es posible que los cambios climáticos y la pérdida del hábitat afecten negativamente en la disponibilidad y calidad de los alimentos, especialmente en zonas áridas donde el alimento puede ser escaso. Bajo este contexto, se pretende investigar qué factores determinan la abundancia, dieta y distribución de la codorniz moctezuma (Cyrtonyx montezumae), un ave que se encuentra en los pastizales desérticos y los bosques de encinos, cuyos resultados podrían ser clave para entender la persistencia de la codorniz moctezuma en el suroeste de los Estados Unidos y norte de México.
 
-El alcance de este proyecto, propone en una primera fase desarrollar un análisis estadístico descriptivo, con base en los datos que proporcione la CONABIO sobre la codorniz moctezuma. De encontrar resultados favorables y de interés para la CONABIO, se plantea en una segunda fase desarrollar un modelo que permita la creación de indicadores relacionados a la abundancia, distribución y dieta de la codorniz moctezuma, dando a su vez lugar para que la CONABIO pueda implementar políticas públicas basadas en conocimiento confiable para conservar la riqueza natural de México.
+El alcance de este proyecto, propone en una **primera fase** desarrollar un análisis estadístico descriptivo, con base en los datos que proporcione la CONABIO sobre la codorniz moctezuma. 
 
+De encontrar resultados favorables y de interés para la CONABIO, el equipo de DataAnalytics propone en una **segunda fase** el desarrollo de un modelo que permita la creación de indicadores relacionados a la abundancia, distribución y dieta de la codorniz moctezuma, dando a su vez lugar para que la CONABIO pueda implementar políticas públicas basadas en conocimiento confiable para conservar la riqueza natural de México.
 
 
 ### 2. Objetivos, metas, estrategias y acciones
@@ -79,7 +80,7 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
           <li>Uso de herramientas y librerías para estadística y lenguajes como Python para implementar la solución y visualización de los datos.</li>
           <li>Determinación de las formas y línea de entrega y recepción de los datos.</li>
           <li>Se dejará a disposición las diferentes tablas $tidy$ que pudiesen ser creadas.</li>
-          <li>Elaboracón de los distintos entregables.</li>
+          <li>Elaboración de los distintos entregables.</li>
         </ol>
       </td>
     </tr>
@@ -89,8 +90,8 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
   <td style="vertical-align: top;">
     <ol>
       <li>Aplicar métodos de remuestreo y bootstrapping, para estimar incertidumbres en las estimaciones, en especial al trabajar con muestras pequeñas como es el caso.</li>
-      <li>Realizar análisis multivariado y de series temporales, para identificar patrones, tendencias en la dieta de la codorniz y su relación con variables climáticas, ambientales y de sujeto.</li>
-      <li>Desarrollar Modelo de preferencia alimentaria: que identifique las preferencias alimentarias de la codorniz Moctezuma en función de variables ambientales y de sujeto.</li>
+      <li>Realizar análisis multivariado y de series temporales, para identificar patrones, tendencias en la dieta de la codorniz y su relación con variables propias de la especie, climáticas y ambientales.</li>
+      <li>Desarrollar Modelo de preferencia alimentaria: que identifique las preferencias alimentarias de la codorniz Moctezuma en función de variables propias de la especie, climáticas y ambientales.</li>
     </ol>
   </td>
   <td style="vertical-align: top;">
@@ -156,6 +157,11 @@ El alcance de este proyecto, propone en una primera fase desarrollar un análisi
 
 
 ### 8. Términos de la participación de DataAnalytics
+
+#### Alcance del proyecto
+DataAnalytics se compromete a realizar la Fase 1 de este proyecto, así como también a la entrega de los documentos especificados.
+
+La Fase 2 de este proyecto está condicionada a los resultados encontrados en la primera fase y al interés por parte de CONABIO en la realización de la misma.
 
 #### Proceso de Pago de los Servicios
 El procedimiento de pago para los servicios prestados por DataAnalytics se realiza de la siguiente forma: 
