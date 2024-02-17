@@ -28,7 +28,15 @@ La CONABIO tiene la misión de promover, coordinar, apoyar y realizar actividade
 
 En las últimas décadas, un tema de interés para la CONABIO han sido las codornices de Norte América, cuya conservación representa un reto actualmente debido a la disminución de sus poblaciones. Es posible que los cambios climáticos y la pérdida del hábitat afecten negativamente en la disponibilidad y calidad de los alimentos, especialmente en zonas áridas donde el alimento puede ser escaso. Bajo este contexto, se pretende investigar qué factores determinan la abundancia, dieta y distribución de la codorniz moctezuma (Cyrtonyx montezumae), un ave que se encuentra en los pastizales desérticos y los bosques de encinos, cuyos resultados podrían ser clave para entender la persistencia de la codorniz moctezuma en el suroeste de los Estados Unidos y norte de México.
 
-El alcance de este proyecto, propone en una primera fase desarrollar un análisis estadístico descriptivo, con base en los datos que proporcione la CONABIO sobre la codorniz moctezuma. De encontrar resultados favorables y de interés para la CONABIO, se plantea en una segunda fase desarrollar un modelo que permita la creación de indicadores relacionados a la abundancia, distribución y dieta de la codorniz moctezuma, dando a su vez lugar para que la CONABIO pueda implementar políticas públicas basadas en conocimiento confiable para conservar la riqueza natural de México.
+Para tal efecto, utilizaremos la información recopilada por el doctorante Oscar Enrique López Bujanda para su tésis 'FACTORES QUE DETERMINAN LA ABUNDANCIA, DIETA Y DISTRIBUCIÓN DE LA CODORNIZ MOCTEZUMA (Cyrtonyx montezumae) EN LAS ISLAS DEL CIELO' y el marco teórico proporcionado por CONABIO. 
+
+Para el desarrollo del proyecto se proponen dos fases: 
+
+En la primera fase hacer una revisión del marco teórico y limpieza y análisis exploratorio de los datos proporcionados por la CONABIO. En base a los hallazgos y la retroalimentación con CONABIO, desarrollar un análisis estadístico descriptivo.
+
+De encontrar resultados favorables y de interés para la CONABIO, se propone en una segunda fase el desarrollo de un modelo que permita la creación de indicadores relacionados a la abundancia, distribución y dieta de la codorniz moctezuma, dando a su vez lugar para que la CONABIO pueda implementar políticas públicas basadas en conocimiento confiable para conservar la riqueza natural de México. Además, se presenta la posibilidad de diseñar y gestionar un programa de capacitación para personal de la dependencia. 
+
+
 
 
 
