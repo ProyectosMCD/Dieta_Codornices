@@ -126,6 +126,53 @@ De encontrar resultados favorables y de interés para la CONABIO, el equipo de D
 
 ### 4. Equipo de trabajo 
 
+<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th>Miembros del equipo</th>
+      <th>Cargo/Actividad</th>
+      <th>Observaciones</th>
+    </tr>
+  </thead>
+  <tbody>
+      <td style="vertical-align: top;">Misael Gonzales Soria</td>
+      <td style="vertical-align: top;">Analista de Datos.</td>
+      <td style="vertical-align: top;">Licenciado en Matemáticas, actualmente es analista de procesos mineros en ECN Automación. Experto en modelos estadísticos y amplio conocimiento en modelado probabilístico.</td>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">María Janneth Rivera Reyna</td>
+      <td style="vertical-align: top;">Ingeniero de Datos.</td>
+      <td style="vertical-align: top;">Licenciada en Ciencias de La computación con 10 años de experiencia en ingeniería y análisis de datos.</td>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">Luis Ernesto Ortiz Villalon</td>
+      <td style="vertical-align: top;">Responsable Técnico.</td>
+      <td style="vertical-align: top;">Licenciado en Finanzas con especialidad en desarrollo sustentable. Con más de 10 años de experiencia en proyectos de desarrollo de software.</td>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">Axel Castro Fonseca</td>
+      <td style="vertical-align: top;">Líder Geoestadístico.</td>
+      <td style="vertical-align: top;">Licenciado Meteorólogo con especialidad en energía sustentable. Especialista en Sistema de Información Geográfica (GIS). Con Maestría en Ciencias de Datos en la Universidad de Sonora.
+      Responsable en el uso y manejo de Mapas del GIS.</td>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">Mario Estrada Ferreira</td>
+      <td style="vertical-align: top;">Ingeniero de Software</td>
+      <td style="vertical-align: top;">Ingeniero en Sistemas de Información. Actualmente trabaja en la Universidad de Sonora como desarrollador. Consultor de Business Intelligence. 
+      Responsable del desarrollo de código tanto en R y Python.</td>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">Ivan Dario Davila Peralta</td>
+      <td style="vertical-align: top;">Administración de Proyecto</td>
+      <td style="vertical-align: top;">Ingeniero Mecatrónico, actualmente es desarrollador de instrumentos de medicion; con experiencia en administración y ejecución de proyectos de investigación.
+      Responsable de planificar, organizar, dirigir y controlar todos los aspectos relacionados con la ejecución de un proyecto.</td>
+  </tbody>
+</table>
 
 
 ### 5. Requerimientos
