@@ -175,8 +175,8 @@ De encontrar resultados favorables y de interés para la CONABIO, el equipo de D
       <td style="vertical-align: top;">Mario Estrada Ferreira</td>
       <td style="vertical-align: top;">Ingeniero de Software.</td>
       <td style="vertical-align: top;">
-        Ingeniero en Sistemas de Información. Actualmente trabaja en la Universidad de Sonora como desarrollador. Consultor de Business Intelligence. 
-        Responsable del desarrollo de código tanto en R y Python.
+        Ingeniero en Sistemas de Información. Actualmente es desarrollador de software y analista de sistemas, ademas de otorgar consultoría de Business Intelligence. 
+        Responsable del desarrollo y supervición de código tanto en R y Python.
       </td>
   </tbody>
   <tbody>
