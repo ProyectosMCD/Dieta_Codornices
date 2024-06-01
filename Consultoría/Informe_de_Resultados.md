@@ -427,9 +427,9 @@ A continuación se enlistan los hallazgos encontrados dentro del análisis:
 - Bajo la prueba de hipótesis de correlación entre variables utilizando el coeficiente de Spearman, también se encuentra que son muy pocas las variables donde existe una correlación significativa, siendo (peso total - tiempo) la tupla más significativa. Para el resto, aunque algunas la evidencia no rechazaba la correlación, ésta era demasiado débil o se debía a una relación directa (como la temperatura con el hland).
 - Se dividimos los tipos de alimentos consumidos por las codornices en dos métricas clave: el peso total de cada tipo de alimento y el número de individuos que consumieron cada tipo. Para obtener una medida precisa de la importancia relativa de cada tipo de alimento, primero sumamos el peso total de cada categoría alimenticia recolectada de los tractos digestivos de todas las codornices analizadas. Luego, contabilizamos el número de individuos que consumieron cada tipo de alimento. Esta doble aproximación nos permitió evaluar no solo la cantidad de cada tipo de alimento consumido en términos absolutos, sino también la frecuencia con que las codornices incorporaron cada tipo de alimento en su dieta, proporcionando una visión integral y detallada de sus hábitos alimenticios.
 
-El 80% de los alimentos solo aparece en 9 de 319 individuas mientras que el 90% de los datos aparece en al menos 27 individuas. 
-En cuanto al peso, solo el 90% de los datos tiene un peso mayor al 6.3 gramos contando todos los individuos.
-Se tomará solo los alimentos cuyo peso total supera 18 gramos y que aparezcan mínimo en 50 individuos, aproximadamente los percentiles 90.
+El 80% de los alimentos solo aparece en 9 o menos de los 319 individuas mientras que el 10% de los datos aparece en al menos 27 individuas. 
+En cuanto al peso, solo el 10% de los alimentos tiene un peso mayor al 6.3 gramos contando todos los individuos.
+Se tomará solo los alimentos cuyo peso total supera 18 gramos y que aparezcan mínimo en 50 individuos, aproximadamente los percentiles 95%.
 
 
  <table>
