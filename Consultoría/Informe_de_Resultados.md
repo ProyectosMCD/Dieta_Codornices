@@ -492,7 +492,7 @@ Dado que disponemos de una cantidad limitada de datos y que estos no parecen pro
 
 En este primer analisis se toman las cobariables X = [time, dist.camino, covey, hland, ppanual17, tmedia17, altitud] y todos los registros que no tienen ninguno de estos datos como nulo.
 
-```text
+```R
 Warning message in DR_data(data[, c("Oxalis", "Quercus", "Cyp.bulb", "Phaseolus", :
 “not all rows sum up to 1 => normalization forced
   some entries are 0 or 1 => transformation forced”
@@ -652,7 +652,7 @@ Aquí se restringió la poblacion para machos adultos.
 
 Se toman las cobariables X = [time, covey,  ppanual17, tmedia17, dist.camino] y todos los registros que no tienen ninguno de estos datos como nulo.
 
-```text
+```R
 Warning message in DR_data(data[, c("Oxalis", "Quercus", "Cyp.bulb", "Phaseolus", :
 “not all rows sum up to 1 => normalization forced
   some entries are 0 or 1 => transformation forced”
@@ -793,9 +793,69 @@ Esto nos indica que los datos no siguen una distribución de dirichlet o, lo que
 
 En nuestra investigación, los elementos 'Phaseolus', 'Cyp.rizo' y 'otros' destacan por mostrar una relación notable en los datos recopilados. Esta observación significativa motivó su inclusión en el análisis detallado, ya que su presencia y características proporcionan información valiosa sobre los patrones de alimentación de las codornices en el área de estudio. La importancia de estos elementos radica en su contribución a la comprensión de las preferencias dietéticas y su influencia en el comportamiento alimentario de estas aves, lo cual es esencial para desarrollar estrategias de conservación y manejo de su hábitat.
 
+Aunado a lo anterior, es importante destacar que el análisis se restringió a codornices jóvenes machos. Esta selección específica se justifica por la necesidad de reducir la variabilidad entre individuos y centrar el estudio en un grupo homogéneo, lo que permite una comparación más precisa y significativa de los hábitos alimenticios.
+
+```R
+Warning message in DR_data(data[, c("Phaseolus", "Cyp.rizo", "otros")]):
+“some entries are 0 or 1 => transformation forced”
+Call:
+DirichReg(formula = Y ~ dist.camino | -1 + hcrop | -1 + covey, data = data)
+
+Standardized Residuals:
+               Min       1Q   Median       3Q     Max
+Phaseolus  -1.2126  -0.6797  -0.5838  -0.5060  4.4081
+Cyp.rizo   -1.7872  -1.1071  -0.5089   1.2584  3.4873
+otros      -1.8729  -0.9630   0.3480   1.3522  2.4254
+
+------------------------------------------------------------------
+Beta-Coefficients for variable no. 1: Phaseolus
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -1.918277   0.199070  -9.636  < 2e-16 ***
+dist.camino  0.002332   0.000753   3.097  0.00196 ** 
+------------------------------------------------------------------
+Beta-Coefficients for variable no. 2: Cyp.rizo
+      Estimate Std. Error z value Pr(>|z|)    
+hcrop  -1.3261     0.1753  -7.566 3.85e-14 ***
+------------------------------------------------------------------
+Beta-Coefficients for variable no. 3: otros
+      Estimate Std. Error z value Pr(>|z|)   
+covey -0.02902    0.01074  -2.702   0.0069 **
+------------------------------------------------------------------
+Significance codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Log-likelihood: 235 on 4 df (42 BFGS + 2 NR Iterations)
+AIC: -462, BIC: -452.4
+Number of Observations: 81
+Link: Log
+Parametrization: common
+```
+En este caso, se obtuvieron resultados significativos para todas las variables. Ahora podemos modelar el vector aleatorio $\mathbf{Y}$ de la siguiente manera:
+
+$$ \mathbf{Y|X} = x\hspace{0.2cm} \sim Dir(\mathbf{\alpha}(x)) $$
+
+Por consiguiente tenemos que las densidades marginales estan dadas de la siguiente manera
+
+$$Y_i| \mathbb{X}  = x\hspace{0.2cm} \sim Beta(\alpha_i(x), \alpha_i(x) - \alpha_0 (x))$$
+
+y por consiguiente podemos conocer su media
+
+$$ \mathbb{E}[Y_i \mid \mathbf{X} = x] = \frac{\alpha_i(x)}{\alpha_0(x)} $$
+
+![alt text](image-1.png)
+
+El análisis de los datos revela que, a medida que las codornices Moctezuma se encuentran más lejos de los caminos, la proporción de 'Phaseolus' en su dieta aumenta significativamente. Esta observación sugiere que 'Phaseolus' es más abundante o accesible en áreas menos perturbadas por la presencia humana y la infraestructura. La lejanía de los caminos puede proporcionar un entorno más favorable para el crecimiento y la disponibilidad de 'Phaseolus', lo que resulta en un mayor consumo de esta planta por parte de las codornices. Este patrón indica que las codornices adaptan su dieta según la disponibilidad de recursos en su entorno, favoreciendo el consumo de 'Phaseolus' en áreas más remotas y naturales.
+
+![alt text](image-4.png)
+
+El análisis de los datos muestra que, a medida que las codornices Moctezuma tienen acceso a una mayor variedad de alimentos, su consumo de 'Cyp.rizo' disminuye notablemente. Esta tendencia sugiere que 'Cyp.rizo', aunque presente en su dieta, no es el alimento preferido cuando hay otras opciones disponibles. La diversidad alimentaria parece ofrecer alternativas más atractivas o nutritivas para las codornices, lo que reduce su dependencia de 'Cyp.rizo'. Este comportamiento refleja una estrategia adaptativa que permite a las codornices optimizar su ingesta nutricional y mejorar sus posibilidades de supervivencia al diversificar su dieta.
+
+![alt text](image-3.png)
+
 ### Conclusiones
 
 Los resultados mostraron que las codornices en Arizona y Nuevo México tienen una dieta altamente diversa, compuesta principalmente por semillas y pequeños invertebrados.
+
+Se llevaron a cabo tres diferentes alternativas de análisis de alimento de codornices Moctezuma. Estas metodologías diversas se implementaron con el objetivo de obtener una visión integral y detallada de los hábitos alimenticios de esta especie, permitiendo así una comprensión más profunda de sus preferencias y comportamientos alimentarios.
 
 ### Recomendación
 
