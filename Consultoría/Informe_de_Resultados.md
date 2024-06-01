@@ -375,7 +375,7 @@ Una vez realizado el análisis exploratorio de los datos (EDA), obtuvimos inform
 5.	**_Escalamiento de datos numéricos:_**  
   •	Se procedió a escalar los datos numéricos para normalizar el rango de las variables. Este paso es crucial para que los algoritmos de aprendizaje automático y análisis multivariado funcionen correctamente y no se vean influenciados desproporcionadamente por variables con rangos más amplios.
 6.	**_Codificación de variables categóricas:_**  
-  •	Las variables categóricas como edad, sexo, estado, gap y time fueron codificadas para que pudieran ser utilizadas en los modelos estadísticos. Esta transformación permite que las variables categóricas se incluyan en análisis estadísticos y modelos de machine learning que requieren variables numéricas.  
+  •	Las variables categóricas como edad, sexo, estado, gap y time fueron codificadas para que pudieran ser utilizadas en los modelos estadísticos. Esta transformación permite que las variables categóricas se incluyan en análisis estadísticos.  
 
 El tratamiento de los datos nos permitió limpiar y preparar el conjunto de datos para un análisis estadístico más preciso y sin ruido. Aunque el número de registros se redujo significativamente, esta reducción no impidió la realización de un análisis robusto. La limpieza y preprocesamiento de los datos son pasos críticos que aseguran la calidad y fiabilidad de los resultados obtenidos en el análisis estadístico posterior.
 
