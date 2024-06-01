@@ -15,15 +15,16 @@
 5. Conclusiones
     
 
-### Objetivos del análisis  
-#### Contexto  
+ 
+### Introducción
+
 Este informe tiene como objetivo presentar un análisis estadístico del proyecto “Factores que contribuyen a la abundancia, dieta y distribución de las codornices de Norteamérica, específicamente la codorniz Moctezuma (Cyrtonyx montezumae)”. La conservación de esta especie representa un desafío debido a la disminución de sus poblaciones. Los cambios climáticos y la pérdida de hábitat pueden afectar negativamente la disponibilidad y calidad de los alimentos, especialmente en zonas áridas donde estos pueden ser escasos.
 
 Es crucial, por tanto, los hallazgos estadísticos obtenidos, ya que nos permiten explicar la situación actual de la codorniz Moctezuma y comprender mejor la significancia de las variables involucradas, particularmente las relacionadas con la alimentación. Este análisis tiene como finalidad determinar la importancia de cada uno de los elementos presentes en la dieta de la especie.
 
 Nos basamos en la información recopilada por el doctorante Oscar Enrique López Bujanda para su tesis, obtenida mediante observaciones e interacciones directas con la codorniz. En una primera instancia, se realizó una revisión del marco teórico, seguida de la limpieza y análisis exploratorio de los datos proporcionados por el doctorante. A partir de este análisis inicial, se desarrolló un análisis estadístico descriptivo detallado.
 
-#### Objetivos  
+### Objetivos del análisis  
 
 - **_Revisión del documento teórico y del trabajo de investigación:_** Analizamos exhaustivamente el documento proporcionado, que contiene el marco teórico y la investigación previa sobre la codorniz Moctezuma. Esto incluye una evaluación crítica de las teorías, hipótesis y estudios anteriores que garantizr una comprensión sólida del contexto y los antecedentes del proyecto.
 
