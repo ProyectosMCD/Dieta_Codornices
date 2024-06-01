@@ -489,7 +489,7 @@ $$\alpha_i = e^{\beta_{i,0} + \beta_{i,1}X_1 + \beta_{i,2}X_2 + ... + \beta_{i,n
 
 Dado que disponemos de una cantidad limitada de datos y que estos no parecen proceder de una misma población debido a la influencia de factores como el sexo, la edad y estado, se espera modelar solamente la distribución de Y y no tener un modelo predictora con alta exactitud.
 
-#### Regresion 1
+#### Regresión 1
 
 En este primer análisis se toman las covariables X = [time, dist. camino, covey, hland, ppanual17, tmedia17, altitud] y todos los registros que no tienen ninguno de estos datos como nulo.
 
@@ -647,7 +647,7 @@ Parametrization: common
 ```
 Los resultados no son muy alentadores, pues en la mayoría de los $\alpha_i$ los coeficientes son prácticamente cero, salvo contadas excepciones para la variable distancia camino y tiempo.
 
-## Regresion 2 Codornices Machos
+#### Regresión 2 Codornices Machos
 
 Aquí se restringió la poblacion para machos adultos.
 
@@ -788,7 +788,7 @@ En este caso vemos que distancia camino fue significativa para Phaseolus y tmedi
 
 Esto nos indica que los datos no siguen una distribución de dirichlet o, lo que pensamos nosotros, que las variables no son suficientes para generar este modelo.
 
-## Regresion 3 Machos Jovenes  
+#### Regresión 3 Machos Jóvenes  
 
 ![alt text](image.png)
 
