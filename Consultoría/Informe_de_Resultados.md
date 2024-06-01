@@ -364,17 +364,17 @@ El diccionario de datos es el siguiente (información proporcionada por Oscar)
 #### Tratamiento de los Datos  
 
 Una vez realizado el análisis exploratorio de los datos (EDA), obtuvimos información crucial sobre la calidad y el comportamiento de los datos crudos frente a análisis estadísticos preliminares. Este proceso nos permitió identificar la magnitud del tratamiento necesario para preparar los datos para los análisis subsecuentes. Aquí se detalla el tratamiento de los datos realizado:  
-1.	Eliminación de registros duplicados:  
+1.	**_Eliminación de registros duplicados:_**  
   •	Se identificaron y eliminaron registros duplicados, resultando en un total de 318 registros únicos y 145 variables. Esto ayudó a asegurar que cada observación fuera única, evitando sesgos en el análisis.
-2.	Homologación de la clase 'sexo':  
+2.	**_Homologación de la clase 'sexo':_**  
   •	Se estandarizaron las categorías de la variable 'sexo', quedando únicamente como 'Female' y 'Male'. Esta unificación facilitó los análisis posteriores y mejoró la consistencia de los datos.
-3.	Eliminación de columnas con desviación estándar igual a cero:  
+3.	**_Eliminación de columnas con desviación estándar igual a cero:_**  
   •	Se eliminaron las columnas que no presentaban variabilidad (desviación estándar igual a cero), resultando en 318 registros y 141 variables. Esta reducción de variables eliminó datos redundantes y simplificó el conjunto de datos.
-4.	Manejo de valores faltantes:  
+4.	**_Manejo de valores faltantes:_**  
   •	Se eliminaron todos los registros que contenían valores faltantes en alguna de sus variables. Esto nos dejó con 182 registros completos y 141 variables, asegurando que los análisis estadísticos se basaran en datos completos y precisos.
-5.	Escalamiento de datos numéricos:  
+5.	**_Escalamiento de datos numéricos:_**  
   •	Se procedió a escalar los datos numéricos para normalizar el rango de las variables. Este paso es crucial para que los algoritmos de aprendizaje automático y análisis multivariado funcionen correctamente y no se vean influenciados desproporcionadamente por variables con rangos más amplios.
-6.	Codificación de variables categóricas:  
+6.	**_Codificación de variables categóricas:_**  
   •	Las variables categóricas como edad, sexo, estado, gap y time fueron codificadas para que pudieran ser utilizadas en los modelos estadísticos. Esta transformación permite que las variables categóricas se incluyan en análisis estadísticos y modelos de machine learning que requieren variables numéricas.  
 
 El tratamiento de los datos nos permitió limpiar y preparar el conjunto de datos para un análisis estadístico más preciso y sin ruido. Aunque el número de registros se redujo significativamente, esta reducción no impidió la realización de un análisis robusto. La limpieza y preprocesamiento de los datos son pasos críticos que aseguran la calidad y fiabilidad de los resultados obtenidos en el análisis estadístico posterior.
