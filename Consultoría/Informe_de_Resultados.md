@@ -429,7 +429,8 @@ A continuación se enlistan los hallazgos encontrados dentro del análisis:
 
 El 80% de los alimentos solo aparece en 9 de 319 individuas mientras que el 90% de los datos aparece en al menos 27 individuas. 
 En cuanto al peso, solo el 90% de los datos tiene un peso mayor al 6.3 gramos contando todos los individuos.
-Se tomara solo los alimentos cuyo peso total supera 18 gramos y que aparezcan mínimo en 50 individuos, aproximadamente los percentiles 90.
+Se tomará solo los alimentos cuyo peso total supera 18 gramos y que aparezcan mínimo en 50 individuos, aproximadamente los percentiles 90.
+
 
  <table>
     <thead>
@@ -473,7 +474,7 @@ Se tomara solo los alimentos cuyo peso total supera 18 gramos y que aparezcan m�
 
 En esta sección se busca modelar la distribución de la variable Y = [Oxalis, Quercus, Cyp.bulb, Phaseolus, Insectos, Cyp.rizo, Commelina.dianthifolia, Euphorbia probably E. bilobata, Piptochaetium.fimbriatum, Urochloa, otros] = $[y_1, ..., y_{11}]$ mediante una distribución de Dirichlet. Esta elección es adecuada debido a que las componentes de Y son proporciones que suman a 1, y la distribución de Dirichlet es ideal para modelar datos composicionales.
 
-Al tener variables que influyen de manera indirecta en la distribucion de Y, se utilizará un modelo lineal generalizado (GLM) para modelar la distribución Y|X, donde X son las covariables a utilizar. Este enfoque permite capturar la relación entre las covariables y las componentes de Y dentro del marco de la distribución de Dirichlet.
+Al tener variables que influyen de manera indirecta en la distribución de Y, se utilizará un modelo lineal generalizado (GLM) para modelar la distribución Y|X, donde X son las covariables a utilizar. Este enfoque permite capturar la relación entre las covariables y las componentes de Y dentro del marco de la distribución de Dirichlet.
 
 El modelo matematico es el siguiente.
 $$\mathbf{Y} \mid \mathbf{X} \sim \text{Dirichlet}(\boldsymbol{\alpha})$$
@@ -486,11 +487,11 @@ $$\log(\alpha_i) = \beta_{i0} + \beta_{i1}X_1 + \beta_{i2}X_2 + \ldots + \beta_{
 o más comunmente visto
 $$\alpha_i = e^{\beta_{i,0} + \beta_{i,1}X_1 + \beta_{i,2}X_2 + ... + \beta_{i,n}X_n}$$
 
-Dado que disponemos de una cantidad limitada de datos y que estos no parecen proceder de una misma población debido a la influencia de factores como el sexo, la edad y estado, se espera modelar solamente la distribución de Y y no tener un modelo predictorio con alta exactitud.
+Dado que disponemos de una cantidad limitada de datos y que estos no parecen proceder de una misma población debido a la influencia de factores como el sexo, la edad y estado, se espera modelar solamente la distribución de Y y no tener un modelo predictora con alta exactitud.
 
 #### Regresion 1
 
-En este primer analisis se toman las cobariables X = [time, dist.camino, covey, hland, ppanual17, tmedia17, altitud] y todos los registros que no tienen ninguno de estos datos como nulo.
+En este primer análisis se toman las covariables X = [time, dist. camino, covey, hland, ppanual17, tmedia17, altitud] y todos los registros que no tienen ninguno de estos datos como nulo.
 
 ```R
 Warning message in DR_data(data[, c("Oxalis", "Quercus", "Cyp.bulb", "Phaseolus", :
@@ -644,13 +645,13 @@ Number of Observations: 178
 Link: Log
 Parametrization: common
 ```
-Los resultados no son muy alentadores, pues en la mayoria de los $\alpha_i$ los coeficientes son practicamente cero, salvo contadas excepciones para la variable distancia camino y tiempo.
+Los resultados no son muy alentadores, pues en la mayoría de los $\alpha_i$ los coeficientes son prácticamente cero, salvo contadas excepciones para la variable distancia camino y tiempo.
 
 ## Regresion 2 Codornices Machos
 
 Aquí se restringió la poblacion para machos adultos.
 
-Se toman las cobariables X = [time, covey,  ppanual17, tmedia17, dist.camino] y todos los registros que no tienen ninguno de estos datos como nulo.
+Se toman las covariables X = [time, covey,  ppanual17, tmedia17, dist. camino] y todos los registros que no tienen ninguno de estos datos como nulo.
 
 ```R
 Warning message in DR_data(data[, c("Oxalis", "Quercus", "Cyp.bulb", "Phaseolus", :
@@ -783,7 +784,7 @@ Link: Log
 Parametrization: common
 ```
 
-En este caso vemos que distancia camino fue significativa para Phaseolus y tmedia17, para Cyp.rizo todas fueron significativas pero en el caso de todas las demas no se obtiene ningun coeficiente que se diferencia de 0 de manera significativa.
+En este caso vemos que distancia camino fue significativa para Phaseolus y tmedia17, para Cyp.rizo todas fueron significativas pero en el caso de todas las demás no se obtiene ningún coeficiente que se diferencia de 0 de manera significativa.
 
 Esto nos indica que los datos no siguen una distribución de dirichlet o, lo que pensamos nosotros, que las variables no son suficientes para generar este modelo.
 
@@ -833,7 +834,7 @@ En este caso, se obtuvieron resultados significativos para todas las variables. 
 
 $$ \mathbf{Y|X} = x\hspace{0.2cm} \sim Dir(\mathbf{\alpha}(x)) $$
 
-Por consiguiente tenemos que las densidades marginales estan dadas de la siguiente manera
+Por consiguiente tenemos que las densidades marginales están dadas de la siguiente manera
 
 $$Y_i| \mathbb{X}  = x\hspace{0.2cm} \sim Beta(\alpha_i(x), \alpha_i(x) - \alpha_0 (x))$$
 
