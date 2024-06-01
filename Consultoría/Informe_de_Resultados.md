@@ -20,21 +20,21 @@
 
 Este informe tiene como objetivo presentar un análisis estadístico del proyecto “Factores que contribuyen a la abundancia, dieta y distribución de las codornices de Norteamérica, específicamente la codorniz Moctezuma (Cyrtonyx montezumae)”. La conservación de esta especie representa un desafío debido a la disminución de sus poblaciones. Los cambios climáticos y la pérdida de hábitat pueden afectar negativamente la disponibilidad y calidad de los alimentos, especialmente en zonas áridas donde estos pueden ser escasos.
 
-Es crucial, por tanto, los hallazgos estadísticos obtenidos, ya que nos permiten explicar la situación actual de la codorniz Moctezuma y comprender mejor la significancia de las variables involucradas, particularmente las relacionadas con la alimentación. Este análisis tiene como finalidad determinar la importancia de cada uno de los elementos presentes en la dieta de la especie.
+Por tanto, son cruciales los hallazgos estadísticos obtenidos, ya que nos permiten explicar la situación actual de la codorniz Moctezuma y comprender mejor la significancia de las variables involucradas; particularmente las relacionadas con la alimentación. Este análisis tiene como finalidad determinar la importancia de cada uno de los elementos presentes en la dieta de la especie.
 
 Nos basamos en la información recopilada por el doctorante Oscar Enrique López Bujanda para su tesis, obtenida mediante observaciones e interacciones directas con la codorniz. En una primera instancia, se realizó una revisión del marco teórico, seguida de la limpieza y análisis exploratorio de los datos proporcionados por el doctorante. A partir de este análisis inicial, se desarrolló un análisis estadístico descriptivo detallado.
 
 ### Objetivos del análisis  
 
-- **_Revisión del documento teórico y del trabajo de investigación:_** Analizamos exhaustivamente el documento proporcionado, que contiene el marco teórico y la investigación previa sobre la codorniz Moctezuma. Esto incluye una evaluación crítica de las teorías, hipótesis y estudios anteriores que garantizr una comprensión sólida del contexto y los antecedentes del proyecto.
+- **_Revisión del documento teórico y del trabajo de investigación:_** Analizamos exhaustivamente el documento proporcionado, que contiene el marco teórico y la investigación previa sobre la codorniz Moctezuma. Esto incluye una evaluación crítica de las teorías, hipótesis y estudios anteriores que garantizar una comprensión sólida del contexto y los antecedentes del proyecto.
 
 - **_Revisión exploratoria de los datos de las cosechas de la codorniz:_** Realizamos una inspección inicial de los datos proporcionados en el archivo Excel, que contiene información sobre las cosechas de la codorniz Moctezuma. Esta revisión se enfoco en identificar la calidad de los datos, detectar valores atípicos y entender la estructura básica de la información recolectada.
 
-- **_Conceptualización y análisis estadístico general:_** Desarrollamos un plan de análisis estadístico que incluya la definición de las hipótesis, la selección de métodos estadísticos adecuados y la estructuración del proceso analítico. Este objetivo busco establecer una base sólida para el análisis estadístico general, asegurando que se aborden todas las variables relevantes.
+- **_Conceptualización y análisis estadístico general:_** Desarrollamos un plan de análisis estadístico que incluye la definición de las hipótesis, la selección de métodos estadísticos adecuados y la estructuración del proceso analítico. Este objetivo establece una base sólida para el análisis estadístico general, asegurando que se aborden todas las variables relevantes.
 
-- **_Diseño y construcción de un análisis exploratorio de datos detallado:_** Implementamos un análisis exploratorio de datos (EDA) para obtener una comprensión profunda de las relaciones y patrones en los datos. Este análisis incluyo visualizaciones y estadísticas descriptivas para explorar las tendencias y correlaciones iniciales, proporcionando una base para análisis más complejos.
+- **_Diseño y construcción de un análisis exploratorio de datos detallado:_** Implementamos un análisis exploratorio de datos (EDA) para obtener una comprensión profunda de las relaciones y patrones en los datos. Este análisis incluye visualizaciones y estadísticas descriptivas para explorar las tendencias y correlaciones iniciales, proporcionando una base para análisis más complejos.
 
-- **_Análisis multivariado para identificar relaciones entre la dieta de la codorniz y variables climáticas y ambientales:_** Realizamos un análisis multivariado avanzado para identificar cómo la dieta de la codorniz Moctezuma se relaciona con variables intrínsecas de la especie, así como con factores climáticos y ambientales. Este análisis busco entender las interacciones y dependencias entre múltiples variables, utilizando técnicas como la regresión múltiple, el análisis de componentes principales y el análisis de clústeres.
+- **_Análisis multivariado para identificar relaciones entre la dieta de la codorniz y variables climáticas y ambientales:_** Realizamos un análisis multivariado avanzado para identificar cómo la dieta de la codorniz Moctezuma se relaciona con variables intrínsecas de la especie, así como con factores climáticos y ambientales. Este análisis busca entender las interacciones y dependencias entre múltiples variables, utilizando técnicas como la regresión múltiple, el análisis de componentes principales, y el análisis de clústeres.
 
 #### Justificación  
 
@@ -424,7 +424,8 @@ A continuación se enlistan los hallazgos encontrados dentro del análisis:
 
 - Los datos fueron analizados para identificar las principales categorías de alimentos consumidos por las codornices, como semillas, insectos, vegetación y otros. Se realizaron análisis estadísticos para detectar patrones y diferencias significativas en la dieta ya sea según la característica del ejemplar (macho o hembra, joven o adulto, numero de grupo, etc.) la fecha o la ubicación geográfica.
 - Se encuentra envidencia estadística para rechazar que las variables utilizadas en el análisis provienen de una distribución normal, bajo la prueba de normalidad de Shapiro.  
-- Bajo la prueba de hipótesis de correlación entre variables utilizando el coeficiente de Spearman, también se encuentra que son muy pocas las variables donde existe una correlación significativa, siendo (peso total - tiempo) la tupla más significativa. Para el resto, aunque algunas la evidencia no rechazaba la correlación, ésta era demasiado débil o se debía a una relación directa (como la temperatura con el hland).
+- Bajo la prueba de hipótesis de correlación entre variables utilizando el coeficiente de Spearman, también se encuentra que son muy pocas las variables donde existe una correlación significativa, siendo (peso total - tiempo) la tupla más significativa. Para el resto, aunque algunas la evidencia no rechazaba la correlación, ésta era demasiado débil o se debía a una relación directa (como la temperatura* con el hland). 
+* Después concluímos que es una relación irrelevante, debido a la naturaleza de la información meteorológica. 
 - Se dividimos los tipos de alimentos consumidos por las codornices en dos métricas clave: el peso total de cada tipo de alimento y el número de individuos que consumieron cada tipo. Para obtener una medida precisa de la importancia relativa de cada tipo de alimento, primero sumamos el peso total de cada categoría alimenticia recolectada de los tractos digestivos de todas las codornices analizadas. Luego, contabilizamos el número de individuos que consumieron cada tipo de alimento. Esta doble aproximación nos permitió evaluar no solo la cantidad de cada tipo de alimento consumido en términos absolutos, sino también la frecuencia con que las codornices incorporaron cada tipo de alimento en su dieta, proporcionando una visión integral y detallada de sus hábitos alimenticios.
 
 El 80% de los alimentos solo aparece en 9 de 319 individuas mientras que el 90% de los datos aparece en al menos 27 individuas. 
@@ -475,7 +476,7 @@ En esta sección se busca modelar la distribución de la variable Y = [Oxalis, Q
 
 Al tener variables que influyen de manera indirecta en la distribucion de Y, se utilizará un modelo lineal generalizado (GLM) para modelar la distribución Y|X, donde X son las covariables a utilizar. Este enfoque permite capturar la relación entre las covariables y las componentes de Y dentro del marco de la distribución de Dirichlet.
 
-El modelo matematico es el siguiente.
+El modelo matemático es el siguiente.
 $$\mathbf{Y} \mid \mathbf{X} \sim \text{Dirichlet}(\boldsymbol{\alpha})$$
 donde 
 $$\alpha = (\alpha_1, \alpha_2, ...,\alpha_{11})$$
@@ -650,7 +651,7 @@ Los resultados no son muy alentadores, pues en la mayoria de los $\alpha_i$ los 
 
 Aquí se restringió la poblacion para machos adultos.
 
-Se toman las cobariables X = [time, covey,  ppanual17, tmedia17, dist.camino] y todos los registros que no tienen ninguno de estos datos como nulo.
+Se toman las covariables X = [time, covey,  ppanual17, tmedia17, dist.camino] y todos los registros que no tienen ninguno de estos datos como nulo.
 
 ```text
 Warning message in DR_data(data[, c("Oxalis", "Quercus", "Cyp.bulb", "Phaseolus", :
@@ -799,7 +800,7 @@ Los resultados mostraron que las codornices en Arizona y Nuevo México tienen un
 
 ### Recomendación
 
-Para realizar un análisis exhaustivo de la variación del hábitat de la codorniz Moctezuma, es crucial disponer de datos detallados sobre variables climatológicas. Ya que estos datos permiten modelar los cambios en el hábitat y entender cómo las variaciones climáticas han afectado la conectividad y la disponibilidad de recursos para la codorniz Moctezuma a lo largo del tiempo.
+Para realizar un análisis exhaustivo de la variación del hábitat de la codorniz Moctezuma, es crucial disponer de datos detallados sobre variables climatológicas actualizadas. Ya que estos datos permiten modelar los cambios en el hábitat y entender cómo las variaciones climáticas han afectado la conectividad y la disponibilidad de recursos para la codorniz Moctezuma a lo largo del tiempo.
 Sin embargo, la recolección de datos presenta desafíos significativos. Las muestras de las codornices solo se obtienen durante la temporada de caza, lo cual introduce un sesgo temporal y posiblemente espacial en los datos. Esto significa que los datos pueden no ser representativos de todas las condiciones ambientales y de todas las épocas del año. Además, en el conjunto de datos disponible, solo se tiene acceso a la precipitación media anual y la temperatura media anual para los años en que se capturaron las codornices. 
 Para mejorar la calidad del análisis, sería ideal complementar estos datos con información más detallada y de mayor resolución temporal.
 
