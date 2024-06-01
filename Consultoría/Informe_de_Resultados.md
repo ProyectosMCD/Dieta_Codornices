@@ -389,11 +389,9 @@ El tratamiento de los datos nos permitió limpiar y preparar el conjunto de dato
 
 3. **_Análisis de correlación de Spearman:_** Este método se utilizo para explorar la relación entre variables que no siguen una distribución normal o que están relacionadas de manera no lineal. Examinando la correlación entre el peso total en el buche de la codorniz y la diversidad del paisaje donde se cosechó, el tiempo, la distancia en el camino, con los distintos indices de la dieta, variables de temperatura y precipitación, entre otras relaciones que nos pudieran ayudar a enteder mejor los datos, utilizando la correlación de Spearman para tener en cuenta posibles relaciones no lineales.
 
-4. **_Análisis de componentes principales (PCA):_** PCA usado para reducir la dimensionalidad de los datos y identificar patrones latentes en la dieta y la distribución de la codorniz. Ayudando a identificar variables importantes que explican la mayor parte de la variabilidad en los datos y a visualizar la estructura subyacente de los mismos.
+4. **_Modelo Random Forest:_** Este método de aprendizaje automático se utilizo en un intento por explicar cuáles serían las variables que afectan al índice de diversidad de alimentos (hcrop) que se encuentran en el buche de las codornices.
 
-5. **_Modelo Random Forest:_** Este método de aprendizaje automático se utilizo en un intento por explicar cuáles serían las variables que afectan al índice de diversidad de alimentos (hcrop) que se encuentran en el buche de las codornices.
-
-6. **_Distribución de Dirichlet:_** Esta distribución la utilizamos para modelar la proporción de diferentes elementos en la dieta de la codorniz Moctezuma. Modelando la proporción de diferentes tipos de alimentos consumidos por las codornices en diferentes regiones geográficas utilizando la distribución de Dirichlet.
+5. **_Distribución de Dirichlet:_** Esta distribución la utilizamos para modelar la proporción de diferentes elementos en la dieta de la codorniz Moctezuma. Modelando la proporción de diferentes tipos de alimentos consumidos por las codornices en diferentes regiones geográficas utilizando la distribución de Dirichlet.
 
 #### Software  
 - **_Lenguaje R y RStudio:_** Utilizamos el lenguaje R junto con RStudio para realizar análisis estadísticos avanzados. Aplicamos la distribución Dirichlet para modelar las proporciones de diferentes elementos en la dieta de la codorniz Moctezuma y efectuamos pruebas de hipótesis para determinar la significancia estadística de las variables. Estas técnicas nos permitieron validar nuestras hipótesis sobre los factores que influyen en la abundancia y distribución de la especie.
