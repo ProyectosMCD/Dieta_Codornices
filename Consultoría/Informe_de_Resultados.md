@@ -402,9 +402,9 @@ El diccionario de datos es el siguiente (información proporcionada por Oscar)
 
 A continuación se enlistan los hallazgos encontrados dentro del análisis:
 
-- Se encuentra que ...
--
--
+- Se encuentra envidencia estadística para rechazar que las variables utilizadas en el análisis provienen de una distribución normal, bajo la prueba de normalidad de Shapiro.  
+- Bajo la prueba de hipótesis de correlación entre variables utilizando el coeficiente de Spearman, también se encuentra que son muy pocas las variables donde existe una correlación significativa, siendo (peso total - tiempo) la tupla más significativa. Para el resto, aunque algunas la evidencia no rechazaba la correlación, ésta era demasiado débil o se debía a una relación directa (como la temperatura con el hland).
+- 
 
 <Aquí se pueden adjuntar tablas o gráficas, reseultados de pruebas de hipótesis, etc>
 
