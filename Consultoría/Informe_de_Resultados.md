@@ -361,6 +361,25 @@ El diccionario de datos es el siguiente (información proporcionada por Oscar)
   </tr>
 </table>
 
+#### Tratamiento de los Datos  
+
+Una vez realizado el análisis exploratorio de los datos (EDA), obtuvimos información crucial sobre la calidad y el comportamiento de los datos crudos frente a análisis estadísticos preliminares. Este proceso nos permitió identificar la magnitud del tratamiento necesario para preparar los datos para los análisis subsecuentes. Aquí se detalla el tratamiento de los datos realizado:  
+1.	Eliminación de registros duplicados:  
+  •	Se identificaron y eliminaron registros duplicados, resultando en un total de 318 registros únicos y 145 variables. Esto ayudó a asegurar que cada observación fuera única, evitando sesgos en el análisis.
+2.	Homologación de la clase 'sexo':  
+  •	Se estandarizaron las categorías de la variable 'sexo', quedando únicamente como 'Female' y 'Male'. Esta unificación facilitó los análisis posteriores y mejoró la consistencia de los datos.
+3.	Eliminación de columnas con desviación estándar igual a cero:  
+  •	Se eliminaron las columnas que no presentaban variabilidad (desviación estándar igual a cero), resultando en 318 registros y 141 variables. Esta reducción de variables eliminó datos redundantes y simplificó el conjunto de datos.
+4.	Manejo de valores faltantes:  
+  •	Se eliminaron todos los registros que contenían valores faltantes en alguna de sus variables. Esto nos dejó con 182 registros completos y 141 variables, asegurando que los análisis estadísticos se basaran en datos completos y precisos.
+5.	Escalamiento de datos numéricos:  
+  •	Se procedió a escalar los datos numéricos para normalizar el rango de las variables. Este paso es crucial para que los algoritmos de aprendizaje automático y análisis multivariado funcionen correctamente y no se vean influenciados desproporcionadamente por variables con rangos más amplios.
+6.	Codificación de variables categóricas:  
+  •	Las variables categóricas como edad, sexo, estado, gap y time fueron codificadas para que pudieran ser utilizadas en los modelos estadísticos. Esta transformación permite que las variables categóricas se incluyan en análisis estadísticos y modelos de machine learning que requieren variables numéricas.  
+
+El tratamiento de los datos nos permitió limpiar y preparar el conjunto de datos para un análisis estadístico más preciso y sin ruido. Aunque el número de registros se redujo significativamente, esta reducción no impidió la realización de un análisis robusto. La limpieza y preprocesamiento de los datos son pasos críticos que aseguran la calidad y fiabilidad de los resultados obtenidos en el análisis estadístico posterior.
+
+
 #### Métodos estadísticos  
 
 1. **_Análisis exploratorio de datos (EDA):_** Este método fue fundamental al inicio del proyecto para comprender la estructura de los datos recopilados sobre la dieta y la distribución de la codorniz Moctezuma. Se utilizarón gráficos y estadísticas descriptivas para explorar las tendencias en la dieta, la variabilidad en la distribución geográfica de las codornices y cualquier posible correlación entre las variables.
