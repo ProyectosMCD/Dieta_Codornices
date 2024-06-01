@@ -413,6 +413,9 @@ A continuación se enlistan los hallazgos encontrados dentro del análisis:
 
 En resumen, ...
 
-Se recomienda, ...
+### Recomendación
 
-<AXEL favor de agregar un comentario al respecto de las variables climatológicas y lo necesario para poder realizar un análisis del pasado y el presente (hipótesis de trabajo doctoral)>
+Para realizar un análisis exhaustivo de la variación del hábitat de la codorniz Moctezuma, es crucial disponer de datos detallados sobre variables climatológicas. Ya que estos datos permiten modelar los cambios en el hábitat y entender cómo las variaciones climáticas han afectado la conectividad y la disponibilidad de recursos para la codorniz Moctezuma a lo largo del tiempo.
+Sin embargo, la recolección de datos presenta desafíos significativos. Las muestras de las codornices solo se obtienen durante la temporada de caza, lo cual introduce un sesgo temporal y posiblemente espacial en los datos. Esto significa que los datos pueden no ser representativos de todas las condiciones ambientales y de todas las épocas del año. Además, en el conjunto de datos disponible, solo se tiene acceso a la precipitación media anual y la temperatura media anual para los años en que se capturaron las codornices. 
+Para mejorar la calidad del análisis, sería ideal complementar estos datos con información más detallada y de mayor resolución temporal.
+
