@@ -1,5 +1,7 @@
 <p align="center">
   <img src="https://github.com/ProyectosMCD/Dieta_Codornices/assets/5826577/fd3ad789-7ef0-422c-879b-5549b413aff2" alt="drawing" width="500"/>
+  <br>
+  <a href="https://gamma.app/docs/Analisis-Estadistico-de-la-Codorniz-Moctezuma-dlkd9yezd1ilvf7?mode=doc" target="_blank">Presentación</a>
 </p>
 
 # INFORME DE RESULTADOS 
